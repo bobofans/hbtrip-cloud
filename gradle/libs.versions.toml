@@ -6,9 +6,11 @@ cn-com-kingbase-kingbase8 = "8.6.0"
 cn-hutool-hutool-all = "5.8.32"
 com-alibaba-cloud-spring-cloud-starter-alibaba-nacos-config = "2023.0.1.2"
 com-alibaba-cloud-spring-cloud-starter-alibaba-nacos-discovery = "2023.0.1.2"
+com-alibaba-dashscope-sdk-java = "2.14.0"
 com-alibaba-druid-spring-boot-v3-starter = "1.2.23"
 com-alibaba-easyexcel = "4.0.3"
 com-alibaba-transmittable-thread-local = "2.14.5"
+com-alipay-sdk-alipay-sdk-java = "4.35.79.ALL"
 com-baomidou-dynamic-datasource-spring-boot3-starter = "4.3.1"
 com-baomidou-lock4j-redisson-spring-boot-starter = "2.2.7"
 com-baomidou-mybatis-plus-generator = "3.5.8"
@@ -20,12 +22,15 @@ com-fasterxml-jackson-datatype-jackson-datatype-jsr310 = "2.17.2"
 com-fhs-opensource-easy-trans-anno = "3.0.6"
 com-fhs-opensource-easy-trans-mybatis-plus-extend = "3.0.6"
 com-fhs-opensource-easy-trans-spring-boot-starter = "3.0.6"
-com-github-binarywang-wx-java-miniapp-spring-boot-starter = "4.6.5.B"
-com-github-binarywang-wx-java-mp-spring-boot-starter = "4.6.5.B"
+com-github-binarywang-weixin-java-pay = "4.6.0"
+com-github-binarywang-wx-java-miniapp-spring-boot-starter = "4.6.0"
+com-github-binarywang-wx-java-mp-spring-boot-starter = "4.6.0"
+com-github-fppt-jedis-mock = "1.1.4"
 com-github-xiaoymin-knife4j-gateway-spring-boot-starter = "4.5.0"
 com-github-xiaoymin-knife4j-openapi3-jakarta-spring-boot-starter = "4.5.0"
 com-github-yulichang-mybatis-plus-join-boot-starter = "1.4.13"
 com-google-guava-guava = "33.3.1-jre"
+com-h2database-h2 = "2.2.224"
 com-jcraft-jsch = "0.1.55"
 com-microsoft-sqlserver-mssql-jdbc = "12.6.4.jre11"
 com-mysql-mysql-connector-j = "8.3.0"
@@ -36,12 +41,22 @@ com-xuxueli-xxl-job-core = "2.4.0"
 commons-net-commons-net = "3.11.1"
 de-codecentric-spring-boot-admin-starter-client = "3.3.3"
 de-codecentric-spring-boot-admin-starter-server = "3.3.3"
+group-springframework-ai-spring-ai-azure-openai-spring-boot-starter = "1.1.0"
+group-springframework-ai-spring-ai-ollama-spring-boot-starter = "1.1.0"
+group-springframework-ai-spring-ai-openai-spring-boot-starter = "1.1.0"
+group-springframework-ai-spring-ai-qianfan-spring-boot-starter = "1.1.0"
+group-springframework-ai-spring-ai-redis-store = "1.1.0"
+group-springframework-ai-spring-ai-stability-ai-spring-boot-starter = "1.1.0"
+group-springframework-ai-spring-ai-tika-document-reader = "1.1.0"
+group-springframework-ai-spring-ai-transformers-spring-boot-starter = "1.1.0"
+group-springframework-ai-spring-ai-zhipuai-spring-boot-starter = "1.1.0"
 io-github-mouzt-bizlog-sdk = "3.0.6"
 io-github-openfeign-feign-core = "13.3"
 io-github-openfeign-feign-okhttp = "13.3"
 io-micrometer-micrometer-registry-prometheus = "1.13.4"
 io-minio-minio = "8.5.7"
 io-opentracing-opentracing-util = "0.33.0"
+jakarta-annotation-jakarta-annotation-api = "2.1.1"
 jakarta-servlet-jakarta-servlet-api = "6.0.0"
 jakarta-validation-jakarta-validation-api = "3.0.2"
 org-apache-commons-commons-compress = "1.27.1"
@@ -53,6 +68,9 @@ org-apache-tika-tika-core = "2.9.2"
 org-apache-velocity-velocity-engine-core = "2.4"
 org-aspectj-aspectjweaver = "1.9.22.1"
 org-dromara-hutool-hutool-extra = "6.0.0-M16"
+org-flowable-flowable-spring-boot-starter-actuator = "7.0.1"
+org-flowable-flowable-spring-boot-starter-process = "7.0.1"
+org-jeecgframework-jimureport-jimureport-spring-boot3-starter-fastjson2 = "1.8.1"
 org-jsoup-jsoup = "1.18.1"
 org-lionsoul-ip2region = "2.7.0"
 org-mapstruct-mapstruct = "1.6.2"
@@ -86,15 +104,18 @@ org-springframework-spring-aop = "6.1.13"
 org-springframework-spring-core = "6.1.13"
 org-springframework-spring-expression = "6.1.13"
 org-springframework-spring-web = "6.1.13"
+uk-co-jemos-podam-podam = "8.0.2.RELEASE"
 
 [libraries]
 cn-com-kingbase-kingbase8 = { module = "cn.com.kingbase:kingbase8", version.ref = "cn-com-kingbase-kingbase8" }
 cn-hutool-hutool-all = { module = "cn.hutool:hutool-all", version.ref = "cn-hutool-hutool-all" }
 com-alibaba-cloud-spring-cloud-starter-alibaba-nacos-config = { module = "com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config", version.ref = "com-alibaba-cloud-spring-cloud-starter-alibaba-nacos-config" }
 com-alibaba-cloud-spring-cloud-starter-alibaba-nacos-discovery = { module = "com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery", version.ref = "com-alibaba-cloud-spring-cloud-starter-alibaba-nacos-discovery" }
+com-alibaba-dashscope-sdk-java = { module = "com.alibaba:dashscope-sdk-java", version.ref = "com-alibaba-dashscope-sdk-java" }
 com-alibaba-druid-spring-boot-v3-starter = { module = "com.alibaba:druid-spring-boot-3-starter", version.ref = "com-alibaba-druid-spring-boot-v3-starter" }
 com-alibaba-easyexcel = { module = "com.alibaba:easyexcel", version.ref = "com-alibaba-easyexcel" }
 com-alibaba-transmittable-thread-local = { module = "com.alibaba:transmittable-thread-local", version.ref = "com-alibaba-transmittable-thread-local" }
+com-alipay-sdk-alipay-sdk-java = { module = "com.alipay.sdk:alipay-sdk-java", version.ref = "com-alipay-sdk-alipay-sdk-java" }
 com-baomidou-dynamic-datasource-spring-boot3-starter = { module = "com.baomidou:dynamic-datasource-spring-boot3-starter", version.ref = "com-baomidou-dynamic-datasource-spring-boot3-starter" }
 com-baomidou-lock4j-redisson-spring-boot-starter = { module = "com.baomidou:lock4j-redisson-spring-boot-starter", version.ref = "com-baomidou-lock4j-redisson-spring-boot-starter" }
 com-baomidou-mybatis-plus-generator = { module = "com.baomidou:mybatis-plus-generator", version.ref = "com-baomidou-mybatis-plus-generator" }
@@ -106,12 +127,15 @@ com-fasterxml-jackson-datatype-jackson-datatype-jsr310 = { module = "com.fasterx
 com-fhs-opensource-easy-trans-anno = { module = "com.fhs-opensource:easy-trans-anno", version.ref = "com-fhs-opensource-easy-trans-anno" }
 com-fhs-opensource-easy-trans-mybatis-plus-extend = { module = "com.fhs-opensource:easy-trans-mybatis-plus-extend", version.ref = "com-fhs-opensource-easy-trans-mybatis-plus-extend" }
 com-fhs-opensource-easy-trans-spring-boot-starter = { module = "com.fhs-opensource:easy-trans-spring-boot-starter", version.ref = "com-fhs-opensource-easy-trans-spring-boot-starter" }
+com-github-binarywang-weixin-java-pay = { module = "com.github.binarywang:weixin-java-pay", version.ref = "com-github-binarywang-weixin-java-pay" }
 com-github-binarywang-wx-java-miniapp-spring-boot-starter = { module = "com.github.binarywang:wx-java-miniapp-spring-boot-starter", version.ref = "com-github-binarywang-wx-java-miniapp-spring-boot-starter" }
 com-github-binarywang-wx-java-mp-spring-boot-starter = { module = "com.github.binarywang:wx-java-mp-spring-boot-starter", version.ref = "com-github-binarywang-wx-java-mp-spring-boot-starter" }
+com-github-fppt-jedis-mock = { module = "com.github.fppt:jedis-mock", version.ref = "com-github-fppt-jedis-mock" }
 com-github-xiaoymin-knife4j-gateway-spring-boot-starter = { module = "com.github.xiaoymin:knife4j-gateway-spring-boot-starter", version.ref = "com-github-xiaoymin-knife4j-gateway-spring-boot-starter" }
 com-github-xiaoymin-knife4j-openapi3-jakarta-spring-boot-starter = { module = "com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter", version.ref = "com-github-xiaoymin-knife4j-openapi3-jakarta-spring-boot-starter" }
 com-github-yulichang-mybatis-plus-join-boot-starter = { module = "com.github.yulichang:mybatis-plus-join-boot-starter", version.ref = "com-github-yulichang-mybatis-plus-join-boot-starter" }
 com-google-guava-guava = { module = "com.google.guava:guava", version.ref = "com-google-guava-guava" }
+com-h2database-h2 = { module = "com.h2database:h2", version.ref = "com-h2database-h2" }
 com-jcraft-jsch = { module = "com.jcraft:jsch", version.ref = "com-jcraft-jsch" }
 com-microsoft-sqlserver-mssql-jdbc = { module = "com.microsoft.sqlserver:mssql-jdbc", version.ref = "com-microsoft-sqlserver-mssql-jdbc" }
 com-mysql-mysql-connector-j = { module = "com.mysql:mysql-connector-j", version.ref = "com-mysql-mysql-connector-j" }
@@ -122,12 +146,22 @@ com-xuxueli-xxl-job-core = { module = "com.xuxueli:xxl-job-core", version.ref = 
 commons-net-commons-net = { module = "commons-net:commons-net", version.ref = "commons-net-commons-net" }
 de-codecentric-spring-boot-admin-starter-client = { module = "de.codecentric:spring-boot-admin-starter-client", version.ref = "de-codecentric-spring-boot-admin-starter-client" }
 de-codecentric-spring-boot-admin-starter-server = { module = "de.codecentric:spring-boot-admin-starter-server", version.ref = "de-codecentric-spring-boot-admin-starter-server" }
+group-springframework-ai-spring-ai-azure-openai-spring-boot-starter = { module = "group.springframework.ai:spring-ai-azure-openai-spring-boot-starter", version.ref = "group-springframework-ai-spring-ai-azure-openai-spring-boot-starter" }
+group-springframework-ai-spring-ai-ollama-spring-boot-starter = { module = "group.springframework.ai:spring-ai-ollama-spring-boot-starter", version.ref = "group-springframework-ai-spring-ai-ollama-spring-boot-starter" }
+group-springframework-ai-spring-ai-openai-spring-boot-starter = { module = "group.springframework.ai:spring-ai-openai-spring-boot-starter", version.ref = "group-springframework-ai-spring-ai-openai-spring-boot-starter" }
+group-springframework-ai-spring-ai-qianfan-spring-boot-starter = { module = "group.springframework.ai:spring-ai-qianfan-spring-boot-starter", version.ref = "group-springframework-ai-spring-ai-qianfan-spring-boot-starter" }
+group-springframework-ai-spring-ai-redis-store = { module = "group.springframework.ai:spring-ai-redis-store", version.ref = "group-springframework-ai-spring-ai-redis-store" }
+group-springframework-ai-spring-ai-stability-ai-spring-boot-starter = { module = "group.springframework.ai:spring-ai-stability-ai-spring-boot-starter", version.ref = "group-springframework-ai-spring-ai-stability-ai-spring-boot-starter" }
+group-springframework-ai-spring-ai-tika-document-reader = { module = "group.springframework.ai:spring-ai-tika-document-reader", version.ref = "group-springframework-ai-spring-ai-tika-document-reader" }
+group-springframework-ai-spring-ai-transformers-spring-boot-starter = { module = "group.springframework.ai:spring-ai-transformers-spring-boot-starter", version.ref = "group-springframework-ai-spring-ai-transformers-spring-boot-starter" }
+group-springframework-ai-spring-ai-zhipuai-spring-boot-starter = { module = "group.springframework.ai:spring-ai-zhipuai-spring-boot-starter", version.ref = "group-springframework-ai-spring-ai-zhipuai-spring-boot-starter" }
 io-github-mouzt-bizlog-sdk = { module = "io.github.mouzt:bizlog-sdk", version.ref = "io-github-mouzt-bizlog-sdk" }
 io-github-openfeign-feign-core = { module = "io.github.openfeign:feign-core", version.ref = "io-github-openfeign-feign-core" }
 io-github-openfeign-feign-okhttp = { module = "io.github.openfeign:feign-okhttp", version.ref = "io-github-openfeign-feign-okhttp" }
 io-micrometer-micrometer-registry-prometheus = { module = "io.micrometer:micrometer-registry-prometheus", version.ref = "io-micrometer-micrometer-registry-prometheus" }
 io-minio-minio = { module = "io.minio:minio", version.ref = "io-minio-minio" }
 io-opentracing-opentracing-util = { module = "io.opentracing:opentracing-util", version.ref = "io-opentracing-opentracing-util" }
+jakarta-annotation-jakarta-annotation-api = { module = "jakarta.annotation:jakarta.annotation-api", version.ref = "jakarta-annotation-jakarta-annotation-api" }
 jakarta-servlet-jakarta-servlet-api = { module = "jakarta.servlet:jakarta.servlet-api", version.ref = "jakarta-servlet-jakarta-servlet-api" }
 jakarta-validation-jakarta-validation-api = { module = "jakarta.validation:jakarta.validation-api", version.ref = "jakarta-validation-jakarta-validation-api" }
 org-apache-commons-commons-compress = { module = "org.apache.commons:commons-compress", version.ref = "org-apache-commons-commons-compress" }
@@ -139,6 +173,9 @@ org-apache-tika-tika-core = { module = "org.apache.tika:tika-core", version.ref 
 org-apache-velocity-velocity-engine-core = { module = "org.apache.velocity:velocity-engine-core", version.ref = "org-apache-velocity-velocity-engine-core" }
 org-aspectj-aspectjweaver = { module = "org.aspectj:aspectjweaver", version.ref = "org-aspectj-aspectjweaver" }
 org-dromara-hutool-hutool-extra = { module = "org.dromara.hutool:hutool-extra", version.ref = "org-dromara-hutool-hutool-extra" }
+org-flowable-flowable-spring-boot-starter-actuator = { module = "org.flowable:flowable-spring-boot-starter-actuator", version.ref = "org-flowable-flowable-spring-boot-starter-actuator" }
+org-flowable-flowable-spring-boot-starter-process = { module = "org.flowable:flowable-spring-boot-starter-process", version.ref = "org-flowable-flowable-spring-boot-starter-process" }
+org-jeecgframework-jimureport-jimureport-spring-boot3-starter-fastjson2 = { module = "org.jeecgframework.jimureport:jimureport-spring-boot3-starter-fastjson2", version.ref = "org-jeecgframework-jimureport-jimureport-spring-boot3-starter-fastjson2" }
 org-jsoup-jsoup = { module = "org.jsoup:jsoup", version.ref = "org-jsoup-jsoup" }
 org-lionsoul-ip2region = { module = "org.lionsoul:ip2region", version.ref = "org-lionsoul-ip2region" }
 org-mapstruct-mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "org-mapstruct-mapstruct" }
@@ -172,3 +209,4 @@ org-springframework-spring-aop = { module = "org.springframework:spring-aop", ve
 org-springframework-spring-core = { module = "org.springframework:spring-core", version.ref = "org-springframework-spring-core" }
 org-springframework-spring-expression = { module = "org.springframework:spring-expression", version.ref = "org-springframework-spring-expression" }
 org-springframework-spring-web = { module = "org.springframework:spring-web", version.ref = "org-springframework-spring-web" }
+uk-co-jemos-podam-podam = { module = "uk.co.jemos.podam:podam", version.ref = "uk-co-jemos-podam-podam" }

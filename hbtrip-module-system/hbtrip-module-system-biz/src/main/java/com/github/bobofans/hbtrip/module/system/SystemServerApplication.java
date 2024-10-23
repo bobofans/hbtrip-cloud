@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SystemServerApplication {
 
     public static void main(String[] args) {
+        //http://127.0.0.1:48081/admin-api/system/
         SpringApplication.run(SystemServerApplication.class, args);
     }
 
