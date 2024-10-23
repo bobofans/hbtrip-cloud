@@ -1,0 +1,5 @@
+com.github.bobofans.hbtrip.framework.security.config.HbtripSecurityRpcAutoConfiguration
+com.github.bobofans.hbtrip.framework.security.config.HbtripSecurityAutoConfiguration
+com.github.bobofans.hbtrip.framework.security.config.HbtripWebSecurityConfigurerAdapter
+com.github.bobofans.hbtrip.framework.operatelog.config.HbtripOperateLogConfiguration
+com.github.bobofans.hbtrip.framework.operatelog.config.HbtripOperateLogRpcAutoConfiguration

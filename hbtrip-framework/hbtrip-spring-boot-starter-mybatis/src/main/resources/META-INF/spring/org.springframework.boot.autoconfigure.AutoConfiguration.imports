@@ -1,0 +1,3 @@
+com.github.bobofans.hbtrip.framework.datasource.config.HbtripDataSourceAutoConfiguration
+com.github.bobofans.hbtrip.framework.mybatis.config.HbtripMybatisAutoConfiguration
+com.github.bobofans.hbtrip.framework.translate.config.HbtripTranslateAutoConfiguration

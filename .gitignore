@@ -1,0 +1,90 @@
+
+# 查看更多 .gitignore 配置 -> https://help.github.com/articles/ignoring-files/
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.class
+target/*
+
+
+### admin-web ###
+
+# dependencies
+**/node_modules
+
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/dist
+/.vscode
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea
+yarn.lock
+package-lock.json
+*bak
+.vscode
+
+# visual studio code
+.history
+*.log
+
+functions/mock
+.temp/**
+
+# umi
+.umi
+.umi-production
+
+# screenshot
+screenshot
+.firebase
+sessionStore
+
+# 项目排除路径
+/.gradle/
+/buildSrc/.gradle/
+/buildSrc/build/
+/hbtrip-framework/hbtrip-common/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-biz-data-permission/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-biz-ip/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-biz-tenant/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-env/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-excel/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-job/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-monitor/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-mq/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-mybatis/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-protection/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-redis/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-rpc/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-security/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-web/build/
+/hbtrip-framework/hbtrip-spring-boot-starter-websocket/build/
+/hbtrip-gateway/build/
+/hbtrip-module-infra/hbtrip-module-infra-api/build/
+/hbtrip-module-infra/hbtrip-module-infra-biz/build/
+/hbtrip-module-system/hbtrip-module-system-api/build/
+/hbtrip-module-system/hbtrip-module-system-biz/build/

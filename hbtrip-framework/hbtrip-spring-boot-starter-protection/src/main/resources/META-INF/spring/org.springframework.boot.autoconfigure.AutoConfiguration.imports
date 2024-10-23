@@ -1,0 +1,4 @@
+com.github.bobofans.hbtrip.framework.idempotent.config.HbtripIdempotentConfiguration
+com.github.bobofans.hbtrip.framework.lock4j.config.HbtripLock4jConfiguration
+com.github.bobofans.hbtrip.framework.ratelimiter.config.HbtripRateLimiterConfiguration
+com.github.bobofans.hbtrip.framework.signature.config.HbtripApiSignatureAutoConfiguration

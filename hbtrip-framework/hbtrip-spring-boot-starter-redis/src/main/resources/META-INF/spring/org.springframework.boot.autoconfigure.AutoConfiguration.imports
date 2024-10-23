@@ -1,0 +1,2 @@
+com.github.bobofans.hbtrip.framework.redis.config.HbtripRedisAutoConfiguration
+com.github.bobofans.hbtrip.framework.redis.config.HbtripCacheAutoConfiguration

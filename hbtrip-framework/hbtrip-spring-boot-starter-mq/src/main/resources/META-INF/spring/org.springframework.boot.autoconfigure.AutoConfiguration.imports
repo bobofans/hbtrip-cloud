@@ -1,0 +1,3 @@
+com.github.bobofans.hbtrip.framework.mq.redis.config.HbtripRedisMQProducerAutoConfiguration
+com.github.bobofans.hbtrip.framework.mq.redis.config.HbtripRedisMQConsumerAutoConfiguration
+com.github.bobofans.hbtrip.framework.mq.rabbitmq.config.HbtripRabbitMQAutoConfiguration

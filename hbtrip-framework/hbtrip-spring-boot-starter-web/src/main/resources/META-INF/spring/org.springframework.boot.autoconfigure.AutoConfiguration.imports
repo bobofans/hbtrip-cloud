@@ -1,0 +1,6 @@
+com.github.bobofans.hbtrip.framework.apilog.config.HbtripApiLogAutoConfiguration
+com.github.bobofans.hbtrip.framework.jackson.config.HbtripJacksonAutoConfiguration
+com.github.bobofans.hbtrip.framework.swagger.config.HbtripSwaggerAutoConfiguration
+com.github.bobofans.hbtrip.framework.web.config.HbtripWebAutoConfiguration
+com.github.bobofans.hbtrip.framework.apilog.config.HbtripApiLogRpcAutoConfiguration
+com.github.bobofans.hbtrip.framework.banner.config.HbtripBannerAutoConfiguration

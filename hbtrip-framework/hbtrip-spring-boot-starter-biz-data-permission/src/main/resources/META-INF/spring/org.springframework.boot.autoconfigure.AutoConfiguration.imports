@@ -1,0 +1,3 @@
+com.github.bobofans.hbtrip.framework.datapermission.config.HbtripDataPermissionAutoConfiguration
+com.github.bobofans.hbtrip.framework.datapermission.config.HbtripDeptDataPermissionAutoConfiguration
+com.github.bobofans.hbtrip.framework.datapermission.config.HbtripDataPermissionRpcAutoConfiguration

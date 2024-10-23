@@ -1,0 +1,2 @@
+com.github.bobofans.hbtrip.framework.env.config.HbtripEnvWebAutoConfiguration
+com.github.bobofans.hbtrip.framework.env.config.HbtripEnvRpcAutoConfiguration
