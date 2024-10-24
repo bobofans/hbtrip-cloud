@@ -28,15 +28,17 @@ java.sourceCompatibility = JavaVersion.VERSION_17
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.34'
     annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.2'
     testCompileOnly 'org.projectlombok:lombok:1.18.34'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
+    testAnnotationProcessor 'org.mapstruct:mapstruct-processor:1.6.2'
 }
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
     options.warnings = false
     options.deprecation = false
-    options.compilerArgs += ["-Xlint:deprecation","-Xlint:unchecked"]
+    options.compilerArgs += ["-parameters"]
 }
 
 tasks.withType(Javadoc) {
